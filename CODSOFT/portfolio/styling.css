@@ -1,0 +1,69 @@
+*{
+   padding:0;
+   margin:0;
+}
+#hero{
+   height:60px;
+   margin-top: 20px;
+   margin-left:4px;
+}
+#logo{
+   font-size: larger;
+   background-color:white;
+}
+a{
+   margin-right: 175px;
+   text-decoration: none;
+   background-color:white ;
+   color:black
+   
+}
+#br{
+   height:180px;
+   
+}
+h1{
+   margin-left: 25px;
+   color:black
+}
+p{
+   margin-left:25px;
+   color: black;
+}
+.images{
+   height:85%;
+   width:42%;
+   position: absolute;
+   bottom:0;
+   right:1%;
+}
+.shape{
+   width:500px;
+}
+.images img{
+   height:85%;
+   left:15%;
+   position: absolute;
+   bottom:20px;
+   transform: translateX(-30%);
+   transition: bottom 1s left 1s ;
+}
+.cv a{
+   padding:10px 18px;
+   background-color: rgb(29, 28, 28);
+   text-decoration: none;
+   color:white ;
+   margin-left:20px;
+}
+.images:hover .shape{
+   bottom:40px;
+}
+.images:hover .myphoto{
+   left:20%;
+}
+.skills{
+   margin-left:20px;
+}
+/* .contact{
+   
+} */
